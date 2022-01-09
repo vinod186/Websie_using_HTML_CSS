@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background: url(back.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: rgb(68, 65, 65);
+  top: 0;
+  left: 0;
+}
+
+.navbar .logo {
+  width: 120px;
+  height: 120px;
+  margin: -20px 40px;
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 8px;
+}
+
+.navbar ul li a {
+  font-size: 20px;
+  font-family: "Monda", sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 6px 13px;
+}
+
+.navbar ul li a:hover {
+  background: red;
+  border-radius: 5px;
+}
+
+.wrapper .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Monda", sans-serif;
+}
+
+.center h1 {
+  color: white;
+  font-size: 70px;
+  width: 900px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.center h2 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.center .buttons {
+  margin: 35px 280px;
+}
+
+.buttons button {
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: #c91c1cfd;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.buttons .btn2 {
+  margin-left: 25px;
+}
+
+.buttons button:hover {
+  background: red;
+}
